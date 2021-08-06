@@ -1,6 +1,8 @@
 import * as React from "react"
 import * as styles from "../styles/404.module.scss"
 
+import Layout from "../components/Layout"
+
 export default function NotFound()
 {
     return(
