@@ -5,7 +5,7 @@ export default function Foot()
 {
     return(
         <footer>
-            stopka
+            stopka 🦶
         </footer>
     )
 }

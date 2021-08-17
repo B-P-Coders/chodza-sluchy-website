@@ -7,6 +7,7 @@ export default function NotFound()
 {
     return(
         <Layout>
+            <Seo title="404: Not found" />
             <h1>404</h1>
             <br />
             <h3>Nie znaleziono</h3>
