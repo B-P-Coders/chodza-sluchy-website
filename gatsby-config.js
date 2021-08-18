@@ -22,13 +22,28 @@ module.exports = {
       },
     },
     "gatsby-plugin-sharp",
+    "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
+      options: [
+        {
+          name: "images",
+          path: "./src/images/",
+        },
+        {
+          name: "articles",
+          path: "./content/articles"
+        },
+        {
+          name: "article-images",
+          path: "./content/images"
+        },
+        {
+          name: "public",
+          path: "./content/public"
+        }
+      ],
       __key: "images",
     },
   ],
