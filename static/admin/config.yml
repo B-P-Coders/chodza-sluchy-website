@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 
 locale: 'pl'
 media_folder: static/img
@@ -16,4 +16,5 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Tytuł", name: "title", widget: "string"}
       - {label: "Data publikacji", name: "date", widget: "datetime"}
+      - {label: "Autor", name: "author", widget: "string"}
       - {label: "Treść", name: "body", widget: "markdown"}
