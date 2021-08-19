@@ -13,6 +13,11 @@ return(
                 <br/><br/>
                ...
             </p>
+            <p className={styles.text}>
+                <span className={styles.naglowek}> Kontakt </span>
+                <br/><br/>
+                ...
+            </p>
 
 
     </Layout>
